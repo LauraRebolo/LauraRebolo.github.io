@@ -1,0 +1,17 @@
+body {
+    background-color:  rgb(239, 239, 239);
+    font-family: quicksand, sans-serif;
+}
+
+.row {
+    padding: 8px;
+    border: 1px dotted #2c25ff;
+}
+
+.row .col-md-3 {
+    padding: 16px;
+}
+
+.row .col-md-6 {
+    padding: 16px;
+}
