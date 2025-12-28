@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfoliot</title>
+    <title>Porfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index_style.css">
 </head>
@@ -11,15 +11,53 @@
     <h1>PORFOLIO PLACEHOLDER</h1>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est cupiditate, ad esse possimus quod recusandae dolorem quis, repellendus voluptas non quidem veniam odit vitae eos quos modi sapiente ipsa.</p>
-            </div>
-            <div class="col-md-6">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia veniam quis tempore in cum veritatis praesentium dolore ipsum consectetur blanditiis maxime dolores optio sequi eveniet, molestiae nobis, eius corrupti dignissimos.</p>
-            </div>
-            <div class="col-md-3">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, quae cum! Quis veritatis inventore ea perferendis laborum, alias consequatur blanditiis placeat possimus eligendi minima ab voluptatum animi magni quas facere!</p>
-            </div>
+
+            <!-- Navegador lateral estatico -->
+            <nav class="col-md-3 sidebar d-none d-md-block" id="sidebar">
+                <ul>
+                    <li class="nav-item"><a href="#home">Inicio</a></li>
+                    <li class="nav-item"><a href="#about">Sobre mí</a></li>
+                    <li class="nav-item"><a href="#project">Proyectos</a></li>
+                    <li class="nav-item"><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Contenido principal al que se le puede hacer scroll -->
+            <main class="col-md-9 contenido">
+                <section class="row" id="home">
+                    <div class="col-md-3 imagen"><img id="imagen1" src="" alt="placeholder hasta que encuentre la imagen"></div>
+                    <div class="col-md-6 container" id="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, omnis alias. Similique, distinctio? Ipsum provident quae quos tenetur facere laudantium animi quam fuga optio iure, voluptatibus voluptates, saepe ipsam explicabo.</div>
+                </section>
+                <div class="col-md-9 row" id="proyectos">
+                    <section id="project">
+                        <h2>Proyectos</h2>
+                        <div id="proyecto1">
+                            <h3>AL2</h3>
+                            <p>Descripción básica del proyecto 1</p>
+                        </div>
+                        <div id="proyecto2">
+                            <h3>Quimbaya</h3>
+                            <p>Descripción básica del proyecto 1</p>
+                        </div>
+                        <div id="proyecto3">
+                            <h3>La Rose</h3>
+                            <p>Descripción básica del proyecto 1</p>
+                        </div>
+                        <div id="proyecto4">
+                            <h3>IF</h3>
+                            <p>Descripción básica del proyecto 1</p>
+                        </div>
+                        <div id="proyecto5">
+                            <h3>Local Trails</h3>
+                            <p>Descripción básica del proyecto 1</p>
+                        </div>
+                        <div id="proyecto6">
+                            <h3>Xela Brew</h3>
+                            <p>Descripción básica del proyecto 1</p>
+                        </div>
+                    </section>
+                </div>
+            </main>
         </div>
     </div>
 
