@@ -15,3 +15,26 @@ body {
 .row .col-md-6 {
     padding: 16px;
 }
+
+#sidebar {
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+.box {
+    background-color: white;
+    margin: 10px;
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    -10px -10px 10px rgba(255, 255, 255, 0.5);
+}
