@@ -1,10 +1,12 @@
 body {
-    background-color:  rgb(239, 239, 239);
+    background-color:  rgb(255, 255, 255);
     font-family: quicksand, sans-serif;
 }
 
 .row {
-    padding: 8px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat (auto-fit, minmax(200px, 1fr));
     border: 1px dotted #2c25ff;
 }
 
@@ -17,7 +19,25 @@ body {
 }
 
 #sidebar {
-    
+    position: fixed;
+    top: 40px;
+    left: 0px;
+    border: 1px solid #2c25ff;
+    margin-top: 16px;
+}
+
+.contenido {
+    display: inline;/* margin-left se aplica solo en pantallas medianas y grandes */
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    #sidebar {
+        width: 25%;
+    }
+    .contenido {
+        margin-left: 25%;
+    }
 }
 
 .grid-container {
