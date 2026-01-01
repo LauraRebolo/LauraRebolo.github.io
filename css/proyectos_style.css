@@ -52,6 +52,7 @@ h1 {
     transform: scale(1.1);
 }
 
+
 .contenido {
     display: inline;/* margin-left se aplica solo en pantallas medianas y grandes */
     justify-content: center;
@@ -75,23 +76,4 @@ h1 {
     .contenido {
         margin-left: 25%;
     }
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
-    gap: 1em;
-    justify-content: center;
-}
-
-.box {
-    background-color: white;
-    margin: 10px;
-    padding: 2em;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.box:hover {
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
