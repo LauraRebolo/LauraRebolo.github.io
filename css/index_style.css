@@ -25,6 +25,15 @@ h1 {
     padding: 16px;
 }
 
+.logo h3{
+    position: sticky;
+    left: 8px;
+    top: 0;
+    font-size: 3em;
+    text-align: center;
+    color: #2c25ff;
+}
+
 #contacto {
     position: fixed;
     top: 200px;
@@ -34,7 +43,7 @@ h1 {
 
 #sidebar {
     position: fixed;
-    top: 40px;
+    top: 0px;
     left: 0px;
     border: 1px solid #2c25ff;
     margin-top: 16px;
@@ -64,6 +73,7 @@ h1 {
     cursor: pointer;
 }
 
+
 .contenido {
     display: inline;/* margin-left se aplica solo en pantallas medianas y grandes */
     justify-content: center;
@@ -78,9 +88,18 @@ h1 {
 }
 
 @media (min-width: 768px) {
-    #sidebar {
-        width: 25%;
+    .button {
+        border: #2c25ff 1px solid;
+        border-radius: 10px;
+        background-color: white;
+        transition: all 100ms ease-in-out;
     }
+    .button:hover {
+        background-color: #2c25ff;
+        color: white;
+        cursor: pointer;
+    }
+
     #contacto {
         width: 25%;
     }
