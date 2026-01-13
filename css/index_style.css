@@ -1,52 +1,36 @@
 body {
     background-color: white;
     font-family: quicksand, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "navbar navbar"
+    "sidebar contenido"
+    "sidebar contenido";
 }
 
-h1 {
-    position: fixed;
-    left: 8px;
-    font-size: 3em;
-    text-align: center;
-    background-color: white;
-    color: #2c25ff;
-}
-
-.row {
-    gap: 1rem;
-    border: 1px dotted #2c25ff;
-}
-
-.row .col-md-3 {
-    padding: 16px;
-}
-
-.row .col-md-9 {
-    padding: 16px;
-}
-
-.logo h3{
+.logo h4{
     position: sticky;
-    left: 8px;
+    left: 20px;
     top: 0;
-    font-size: 3em;
-    text-align: center;
+    font-size: 30px;
+    text-align: left;
     color: #2c25ff;
 }
 
-#contacto {
-    position: fixed;
-    top: 200px;
-    left: 20px;
-    margin-top: 16px;
+#navbar {
+    grid-area: navbar;
+    position: sticky;
+    top: 0;
 }
 
 #sidebar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
+    grid-area: sidebar;
     border: 1px solid #2c25ff;
-    margin-top: 16px;
+    padding: 1em;
+    position: sticky;
 }
 
 .nav-item a {
@@ -73,8 +57,8 @@ h1 {
     cursor: pointer;
 }
 
-
-.contenido {
+#proyectos {
+    grid-area: contenido;
     display: inline;/* margin-left se aplica solo en pantallas medianas y grandes */
     justify-content: center;
 }
