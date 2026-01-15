@@ -1,13 +1,14 @@
-// código sacado de https://www.youtube.com/watch?v=Ovl3IxTwS18&list=PLpKIuQ0huAsKy_VUPRKKSYqQmXKesrkeb&index=2
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-let menuOpen = false;
-hamburger.addEventListener("click", () => {
-    if (menuOpen == false) {
-        navLinks.style.display = "block";
-        menuOpen = true;
-    } else if (menuOpen == true) {
-        navLinks.style.display = "none";
-        menuOpen = false;
+function toggleNav() {
+    const navbar = document.getElementById('navbar');
+    const sidebar = document.getElementById('sidebar');
+    if (window.innerWidth > 768) {
+        navbar.style.display = 'none';
+        sidebar.style.display = 'block';
+    } else {
+        navbar.style.display = 'block';
+        sidebar.style.display = 'none';
     }
-);
+}
+
+window.addEventListener('load', toggleNav);
+window.addEventListener('resize', toggleNav);
