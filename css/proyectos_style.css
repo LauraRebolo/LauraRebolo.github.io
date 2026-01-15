@@ -102,12 +102,120 @@ main {
     object-fit: cover;
 }
 
+/*2do proyecto modificaciones*/
+#proyecto2-moodboard2 {
+    padding: 0;
+    overflow: hidden;
+}
+
+#proyecto2-moodboard2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/*1er proyecto modificaciones*/
 #primera_muestra img {
     height: 170px;
 }
 
 #segunda_muestra img {
     height: 158px;
+}
+
+/*3er proyecto modificaciones*/
+#proyecto3-moodboard1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#proyecto3-moodboard3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#proyecto3-primera_muestra img {
+    inline-size: 100%;
+    object-fit: cover;
+    bottom: -20px;
+}
+
+#proyecto3-segunda_muestra img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#proyecto3-tercera_muestra img {
+    height: 150px;
+    object-fit: cover;
+}
+
+#proyecto3-cuarta_muestra img {
+    inline-size: 100%;
+    object-fit: cover;
+}
+
+/*4o proyecto modificaciones*/
+#proyecto4-moodboard2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/*Creo que se nota que no tengo ni idea de cómo mover las imágenes dento de los cuadros jaja no me suspendais por fa, al menos lo intento*/
+#proyecto4-segunda_muestra img {
+    inline-size: 100%;
+    margin-bottom: 100px;
+    object-position: center;
+}
+
+#proyecto4-cuarta_muestra img {
+    inline-size: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/*5o proyecto modificaciones*/
+
+#proyecto5-moodboard1 img {
+    inline-size: 75%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#proyecto5-moodboard3 img {
+    inline-size: 110%;
+    object-fit: cover;
+    object-position: left;
+}
+
+#proyecto5-primera_muestra img {
+    inline-size: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#proyecto5-tercera_muestra img {
+    inline-size: 75%;
+    object-fit: cover;
+    object-position: right;
+}
+
+/*6o proyecto modificaciones*/
+#proyecto6-segunda_muestra img {
+    object-fit: cover;
+    object-position: top;
+}
+
+#proyecto6-tercera_muestra img {
+    object-position: center;
 }
 
 h3 {
