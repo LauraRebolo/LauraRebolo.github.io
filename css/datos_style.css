@@ -67,6 +67,23 @@ main {
     grid-area: contenido; /*Para el grid de la columna derecha*/
 }
 
+form {
+    grid-area: contenido;
+    max-width: 400px;
+    margin: 20px auto;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
 .grid-container {
     gap: 1em;
     margin-top: 40px;
