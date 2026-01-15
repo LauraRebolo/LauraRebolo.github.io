@@ -8,7 +8,89 @@
     <link rel="stylesheet" href="../css/proyectos_style.css">
 </head>
 <body>
+    <!--Navegador superior para pantallas pequeñas-->
+    <nav class="superior" id="navbar">
+        <div class="logo">
+            <h4>Laura<br>Rebolo</h4>
+        </div>
 
+        <ul>
+            <div class="nav-item"><a href="../index.html">Proyectos</a></div>
+            <div class="nav-item"><a href="html-secciones/sobre-mi.html">Sobre mí</a></div>
+            <a href="html-secciones/contacto.html"><button class="button">Contactar</button></a>
+        </ul>
+    </nav>
+
+    <!-- Navegador lateral estatico -->
+    <nav class="columna-izquierda" id="sidebar">
+        <div class="logo">
+            <h4>Laura<br>Rebolo</h4>
+        </div>
+
+        <ul>
+            <div class="nav-item"><a href="../index.html">Proyectos</a></div>
+            <div class="nav-item"><a href="html-secciones/sobre-mi.html">Sobre mí</a></div>
+            <a href="html-secciones/contacto.html"><button class="button">Contactar</button></a>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal al que se le puede hacer scroll -->
+    <main class="columna-derecha">
+        <div id="proyectos">
+            <section id="project">
+                <div class="grid-container">
+                    <div class="box" id="moodboard1" style="grid-area: box-1">
+                        <img class="color-img" src="../img/proyecto1-color.jpg" alt="AL2">
+                    </div>
+                    <div class="box" id="moodboard2" style="grid-area: box-2">
+                        <img class="color-img" src="../img/proyecto1-moodboard2.jpg" alt="AL2">
+                    </div>
+                    <div class="box" id="moodboard3" style="grid-area: box-3">
+                        <img class="color-img" src="../img/proyecto1-moodboard3.png" alt="AL2">
+                    </div>
+                    <div class="box" id="descripcion" style="grid-area: box-4">
+                        <h3>AL2</h3>
+                        <p>Este diseño nace de la fascinación que
+                            he sentido desde niña por los contrafuertes
+                            y arbotantes de las catedrales e iglesias
+                            góticas. El AL2 está formado por dos
+                            piezas que unen las patas laterales
+                            formando una estructura fuerte y estable.
+                        </p>
+                    </div>
+                    <div class="box" id="explicacion" style="grid-area: box-5">
+                        <p>
+                            Tomando en cuenta el requerimiento 
+                            del cliente, era de suma importancia 
+                            repartir correctamente el peso a toda 
+                            la estructura, y fue así como me inspiré 
+                            en los contrafuertes de las catedrales e 
+                            iglesias. <br>
+                            El AL2 está formado por dos piezas que 
+                            unen las patas laterales formando una 
+                            estructura fuerte y estable. La pieza de 
+                            unión inferior juega un papel muy 
+                            importante ya que es la que distribuye 
+                            el peso uniformemente a todo el armazón. 
+                        </p>
+                    </div>
+                    <div class="box" id="separador" style="grid-area: box-6"></div>
+                    <div class="box" id="primera_muestra" style="grid-area: box-7">
+                        <img src="../img/proyecto1-muestra1.png" alt="muestra1">
+                    </div>
+                    <div class="box" id="segunda_muestra" style="grid-area: box-8">
+                        <img src="../img/proyecto1-muestra2.png" alt="muestra2">
+                    </div>
+                    <div class="box" id="tercera_muestra" style="grid-area: box-9">
+                        <img src="../img/proyecto1-muestra3.png" alt="muestra3">
+                    </div>
+                    <div class="box" id="cuarta_muestra" style="grid-area: box-10">
+                        <img src="../img/proyecto1-muestra4.png" alt="muestra4">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="../js/random.js"></script>
 </body>
