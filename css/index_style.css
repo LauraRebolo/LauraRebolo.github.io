@@ -183,11 +183,42 @@ a {
     opacity: 1;
 }
 
-.box h3 {
+#proyecto1,
+#proyecto3,
+#proyecto5 {
+    text-align: left;
+}
+
+#proyecto1 h3,
+#proyecto3 h3,
+#proyecto5 h3 {
     font-size: 20px;
     text-align: left;
 }
-.box p {
+
+#proyecto1 p,
+#proyecto3 p,
+#proyecto5 p {
     font-size: 14px;
     text-align: left;
+}
+
+#proyecto2,
+#proyecto4,
+#proyecto6 {
+    text-align: right;
+}
+
+#proyecto2 h3,
+#proyecto4 h3,
+#proyecto6 h3 {
+    font-size: 20px;
+    text-align: right;
+}
+
+#proyecto2 p,
+#proyecto4 p,
+#proyecto6 p {
+    font-size: 14px;
+    text-align: right;
 }
